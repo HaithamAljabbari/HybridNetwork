@@ -2,6 +2,8 @@ import argparse
 from scapy.all import sniff, ARP, Ether, srp, send, IP, ICMP, TCP, DNS, DNSQR, DNSRR, UDP, RadioTap, Dot11, Dot11Deauth
 import os
 
+#Linux is GOATED
+
 # Helper: Sniff Network Traffic
 def sniff_packets(count=10):
     def packet_handler(packet):
